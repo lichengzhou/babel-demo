@@ -1,0 +1,21 @@
+{
+  "name": "babel-demo",
+  "version": "1.0.0",
+  "description": "Starter code for using Babel",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "build-app": "babel src/app.js -d dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronen Elster <alter.ronen@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ronen-e/babel-demo.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
